@@ -26,7 +26,7 @@ object ToHtml extends App {
     if (Desktop.isDesktopSupported) {
       val desktop = Desktop.getDesktop
       if (desktop.isSupported(Desktop.Action.BROWSE)) try {
-        val tempFile = File.createTempFile(".toHtml", ".tmp")
+        val tempFile = File.createTempFile(".toHtml", ".html")
         writeToFile(tempFile, arg) foreach { uri =>
           desktop.browse(uri)
         }
