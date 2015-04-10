@@ -1,5 +1,6 @@
 name := """pegdownTest"""
 organization := "com.micronautics"
+licenses += ("MIT", url("http://opensource.org/licenses/MIT"))
 
 version := "0.1.0"
 
