@@ -1,3 +1,7 @@
+# Markdown to HTML
+
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
 `ToHtml` is a utility that reads files containing various flavors of markdown and converts them to HTML.
 
 This project is sponsored by [Micronautics Research Corporation](http://www.micronauticsresearch.com/),
